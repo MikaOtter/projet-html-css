@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML/CSS - JavaScript</title>
+    <link href="../css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="nav-ctn">
+      <!--::::::::::::::NAV SECTION::::::::::::::::::::-->
+      <div class="nav-ctn-left">
+        <a href="/Projet-HTML-CSS/index.html"
+          ><span class="nav-logo">&lt;HTML&CSS /&gt;</span></a
+        >
+        <nav class="nav">
+          <ul>
+            <li><a href="./html.html">HTML</a></li>
+            <li><a href="./css.html">CSS</a></li>
+            <li><a href="./javascript.html">JAVASCRIPT</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <input type="search" placeholder="     Search..." class="nav-search" />
+      <div class="nav-ctn-btn">
+        <button type="button" class="nav-btn btn-login">Login</button>
+        <button type="button" class="nav-btn btn-profil">C</button>
+      </div>
+    </header>
+    <section class="contact-section">
+      <div class="contact-form">
+        <div class="name">
+          <label for="name"> Nom/Prénom/Cause social </label>
+          <input
+            type="text"
+            id="name"
+            name="user-name"
+            class="name-input"
+            placeholder="Nous acceptons les surnoms affectueux... 💕"
+          />
+        </div>
+        <div class="mail">
+          <label for="mail"> Email </label>
+          <input
+            type="email"
+            id="mail"
+            name="user-mail"
+            class="mail-input"
+            placeholder="Si vous voulez qu'on vous réponde... "
+          />
+        </div>
+        <div class="comment">
+          <label for="comment"> Votre message </label>
+          <textarea
+            id="comment"
+            name="user-comment"
+            placeholder="Il était une fois... 📖"
+          ></textarea>
+        </div>
+        <div>
+          <button type="submit" class="submit-btn">Envoyer</button>
+        </div>
+      </div>
+      <!--/*::::::::::::::::::::::::::CONTACT LIST:::::::::::::::::::::::*/-->
+      <div class="contact-list-box">
+        <div class="contact-list">
+          <div class="contact-list-item">
+            <h3>Adresse</h3>
+            <div class="coordonates-ctn">
+              <p class="icone">🗺️</p>
+              <p>155 rue du dirigeable</p>
+            </div>
+          </div>
+          <div class="contact-list-item">
+            <h3>Numéro</h3>
+            <div class="coordonates-ctn">
+              <p class="icone">☎️</p>
+              <p>+33(0)9 70 44 99 61</p>
+            </div>
+          </div>
+          <div class="contact-list-item">
+            <h3>Email</h3>
+            <div class="coordonates-ctn">
+              <p class="icone">✉️</p>
+              <p>contact@ri7.fr</p>
+            </div>
+          </div>
+        </div>
+        <div class="coordonates">
+          <span>Coordonnées</span>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
